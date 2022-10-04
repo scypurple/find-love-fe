@@ -74,19 +74,16 @@ declare namespace PostType {
   /**
    * 查
    */
-
-  //!PageRequest has not ready
-  //TODO fix 
-  // interface PostQueryRequest extends PageRequest {
-  //   education?: string;
-  //   place?: string;
-  //   job?: string;
-  //   contact?: string;
-  //   loveExp?: string;
-  //   content?: string;
-  //   userId?: number;
-  //   reviewStatus?: number;
-  // }
+  interface PostQueryRequest extends PageRequest {
+    education?: string;
+    place?: string;
+    job?: string;
+    contact?: string;
+    loveExp?: string;
+    content?: string;
+    userId?: number;
+    reviewStatus?: number;
+  }
 
   /**
    * 帖子点赞请求
